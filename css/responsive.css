@@ -1,0 +1,405 @@
+/*		Default Layout: 960px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+.promo-content {
+	padding: 57px 70px 55px 30px;
+}
+.product-promo-bg img {
+    width: auto !important;
+    padding: 20px 0px 0 40px;
+}
+.brand-section-area img {
+    width: 12.333333%;
+}
+
+}
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.slider-text-tablecell{
+		padding-left: 10%;
+	}
+	.big-menu-area li a {
+		font-size: 30px;
+		padding: 60px 0px 0px;
+	}
+	.big-menu-area li {
+		padding: 30px;
+	}
+	.single-product-list-item {
+		height: 250px;
+		width: 31.333333%;
+	}
+	.single-product-list-item:nth-child(2), .single-product-list-item:nth-child(4), .single-product-list-item:nth-child(9) {
+		width: 64.6%;
+		height: 250px;
+	}
+	.single-product-list-item:nth-child(4){
+		width: 64.6%;
+		height: 520px;
+	}
+	.product-promo-bg {
+		background: linear-gradient(1800deg,#e4cfc5,)	
+	}
+	.promo-content {
+		padding: 30px 70px 50px 30px;	
+	}
+	.promo-title h2 {
+		font-size: 30px;
+	}
+	.promo-title span.year-text {
+		top: -1px;
+		left: 50%;
+		font-size: 65px;
+	}
+	.promo-title {
+		margin-bottom: 25px;
+	}
+	.promo-content p {
+		line-height: 28px;
+	}
+	.product-promo-bg img {
+		width: 100%;
+		padding: 0 10px;
+	}
+	.brand-section-area img {
+		width: 10.8%;
+		margin-top: 50px;
+		margin-top: 20px;
+	}
+	.footer-menu, .social-area-links, .email-subscribe-form {
+		text-align: center;	
+	}
+	.footer-area .footer-menu ul li a {
+		padding: 0 20px;	
+	}
+	.footer-area p {
+		text-align: center;	
+	}
+	.social-area-links a {
+		padding: 0 20px;	
+	}
+
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+
+	.header-top-area {
+		position: relative;
+		background: #FD4367;
+		padding: 15px 0;	
+	}
+	.header-top-area ul{
+		display: none;
+	}
+	.header-top-area .col-md-6{
+		width: 20%; float: left;
+	}
+	.header-top-area .col-md-6:nth-child(2) {
+		width: 80%;	
+	}
+	.header-left-area {
+		padding-top: 6px;
+	}
+	.header-top-area a {
+		padding: 0 5px;
+	}
+	.header-top-area .header-right-area i.fa {
+		padding-left: 2px;
+	}
+	.homepage-slider-wrap .owl-carousel .owl-item .single-slider-item img {
+		display: none;
+	}
+	.homepage-slider-wrap {
+		height: auto;
+	}
+	.single-slider-item {
+		padding: 20px 0;
+	}
+	.slider-text-tablecell {
+		padding-left: 0;
+		font-size: 50px;
+		line-height: 50px;
+		text-align: center;
+	}
+	.big-menu-area li {
+		float: none;
+		padding: 30px;
+		width: 100%;
+	}
+	.big-menu-area li a {
+		font-size: 30px;
+		text-align: center;
+		padding: 0;
+	}
+	.big-menu-area li:nth-child(4) a {
+		text-align: center;
+	}	
+	.big-menu-area li:nth-child(2), .big-menu-area li:nth-child(3) {
+		width: 100%;
+	}
+	.single-product-list-item, .single-product-list-item:nth-child(2), .single-product-list-item:nth-child(4), .single-product-list-item:nth-child(9) {
+		width: 100%;
+	}
+	.single-product-list-item:nth-child(2) {
+		height: 300px;
+	}	
+	.product-bg-1, .product-bg-2, .product-bg-3, .product-bg-4, .product-bg-5, .product-bg-6, .product-bg-7, .product-bg-8, .product-bg-9, .product-bg-10 {
+		background-size: cover;
+	}
+	a.load-more-product-btn {
+		margin-top: 10px;
+		margin-bottom: 30px;
+	}
+	.product-promo-bg img {
+		height: 300px;
+	}
+	.product-promo-bg {
+		padding: 10px 10px 0 25px;
+	}
+	.promo-title h2 {
+		font-size: 28px;
+		line-height: 22px;
+	}
+	.promo-title span.year-text {
+		left: 50%;
+		font-size: 50px;
+	}
+	.promo-content {
+		padding: 15px;
+		padding-bottom: 50px;
+		padding-top: 30px;
+	}
+	.promo-content p {
+		font-size: 14px;
+		line-height: 25px;
+	}
+	.brand-section-area img {
+		width: 14%;
+		margin: 2px;
+		margin-top: 30px;
+	}
+	.product-promotions .owl-dots button {
+		background: #b9b9b9;
+		width: 13px;
+		height: 13px;
+		margin: 5px;
+		display: inline-block;
+	}
+	.product-promotions .owl-dots {
+		top: auto;
+		text-align: center;
+		left: 50%;
+		margin-left: -46%;
+		bottom: 10px;
+	}
+	.footer-top-area {
+		margin-top: 20px;
+	}
+	.footer-wid {
+		margin-bottom: 30px;
+	}
+	.footer-copuright {
+		text-align: center;
+	}
+	.footer-bottom-area ul{
+		text-align: center;
+	}
+	.footer-bottom-area ul li a {
+		padding: 0 10px;
+	}
+	
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	.header-top-area {
+		position: relative;
+		background: #FD4367;
+		padding: 15px 0;	
+	}
+	.header-top-area ul{
+		display: none;
+	}
+	.header-top-area .col-md-6{
+		width: 20%; float: left;
+	}
+	.header-top-area .col-md-6:nth-child(2) {
+		width: 80%;	
+	}
+	.header-left-area {
+		padding-top: 6px;
+	}
+	.header-top-area a {
+		padding: 0 5px;
+	}
+	.header-top-area .header-right-area i.fa {
+		padding-left: 2px;
+	}
+	.homepage-slider-wrap .owl-carousel .owl-item .single-slider-item img {
+		display: none;
+	}
+	.homepage-slider-wrap {
+		height: auto;
+	}
+	.single-slider-item {
+		padding: 20px 0;
+	}
+	.slider-text-tablecell {
+		padding-left: 0;
+		font-size: 50px;
+		line-height: 50px;
+		text-align: center;
+	}
+	.big-menu-area li {
+		float: none;
+		padding: 30px;
+		width: 100%;
+	}
+	.big-menu-area li a {
+		font-size: 30px;
+		text-align: center;
+		padding: 0;
+	}
+	.big-menu-area li:nth-child(4) a {
+		text-align: center;
+	}	
+	.big-menu-area li:nth-child(2), .big-menu-area li:nth-child(3) {
+		width: 100%;
+	}
+	.single-product-list-item, .single-product-list-item:nth-child(2), .single-product-list-item:nth-child(4), .single-product-list-item:nth-child(9) {
+		width: 100%;
+	}
+	.single-product-list-item:nth-child(2) {
+		height: 300px;
+	}
+	.product-bg-1, .product-bg-2, .product-bg-3, .product-bg-4, .product-bg-5, .product-bg-6, .product-bg-7, .product-bg-8, .product-bg-9, .product-bg-10 {
+		background-size: cover;
+	}
+	a.load-more-product-btn {
+		margin-top: 10px;
+		margin-bottom: 30px;
+	}
+	.product-promo-bg img {
+		height: 300px;
+	}
+	.product-promo-bg {
+		padding: 10px 10px 0 25px;
+	}
+	.promo-title h2 {
+		font-size: 28px;
+		line-height: 22px;
+	}
+	.promo-title span.year-text {
+		left: 50%;
+		font-size: 50px;
+	}
+	.promo-content {
+		padding: 15px;
+		padding-bottom: 50px;
+		padding-top: 30px;
+	}
+	.promo-content p {
+		font-size: 14px;
+		line-height: 25px;
+	}
+	.brand-section-area img {
+		width: 14%;
+		margin: 2px;
+		margin-top: 30px;
+	}
+	.product-promotions .owl-dots button {
+		background: #b9b9b9;
+		width: 13px;
+		height: 13px;
+		margin: 5px;
+		display: inline-block;
+	}
+	.product-promotions .owl-dots {
+		top: auto;
+		text-align: center;
+		left: 50%;
+		margin-left: -46%;
+		bottom: 10px;
+	}
+	.footer-area {
+		padding: 0px;
+		margin-top: 20px;
+		text-align: center;
+	}
+	.social-area-links, .email-subscribe-form {
+		text-align: center;
+	}
+	.footer-area .footer-menu ul li a, .social-area-links a {
+		padding: 0 10px;
+	}
+	.email-subscribe-form input[type="submit"] {
+		margin-top: 10px;
+	}
+	.footer-area {
+		padding: 30px 0;
+	}
+	
+	.footer-top-area {
+		margin-top: 20px;
+	}
+	.footer-wid {
+		margin-bottom: 30px;
+	}
+	.footer-copuright {
+		text-align: center;
+	}
+	.footer-bottom-area ul{
+		text-align: center;
+	}
+	.footer-bottom-area ul li a {
+		padding: 0 10px;
+	}
+	
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+
+		
+	
+}
